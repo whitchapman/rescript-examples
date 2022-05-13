@@ -1,5 +1,5 @@
 {
-  "name": "rescript-template",
+  "name": "rescript-examples",
   "version": "0.0.1",
   "sources": {
     "dir" : "src",
@@ -10,7 +10,9 @@
     "in-source": true
   },
   "suffix": ".bs.js",
+  "reason": { "react-jsx": 3 },
   "bs-dependencies": [
+    "@rescript/react",
   ],
   "warnings": {
     "error" : "+101"

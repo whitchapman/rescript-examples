@@ -1,5 +1,5 @@
 {
-  "name": "rescript-template",
+  "name": "rescript-examples",
   "version": "0.0.1",
   "scripts": {
     "build": "rescript",
@@ -12,6 +12,7 @@
   "author": "",
   "license": "MIT",
   "dependencies": {
+    "@rescript/react": "^0.10.3",
     "rescript": "*"
   }
 }
