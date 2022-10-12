@@ -16,12 +16,10 @@ var server = Http.createServer(function (request, response) {
       console.log(request.method);
       response.writeHead(200, contentType);
       response.end("This is a failed attempt to return a React component!");
-      
     });
 
 server.listen(3000, (function (param) {
         console.log("server is running on 3000");
-        
       }));
 
 exports.contentType = contentType;

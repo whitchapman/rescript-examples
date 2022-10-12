@@ -13,7 +13,7 @@
   "license": "MIT",
   "dependencies": {
     "@rescript/react": "^0.10.3",
-    "rescript": "*",
+    "rescript": "^10.0.1",
     "uuid": "^8.3.2"
   }
 }

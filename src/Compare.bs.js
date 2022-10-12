@@ -4,7 +4,7 @@
 var Caml_obj = require("rescript/lib/js/caml_obj.js");
 
 function cmp(x1, x2) {
-  var y = Caml_obj.caml_compare(x1, x2);
+  var y = Caml_obj.compare(x1, x2);
   console.log(y);
   return y;
 }
